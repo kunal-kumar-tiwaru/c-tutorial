@@ -20,7 +20,13 @@ int main(){
             break;
         case '*':printf("%f", num1 * num2);
             break;
-        case '/':printf("%f", num1 / num2);
+        case '/':
+            if(num2 == 0){
+                printf("any number is not devided by 0");
+            } 
+            else {
+                printf("%f", num1 / num2);
+            }
             break;
         case '^':printf("%f", pow(num1, num2));
             break;
