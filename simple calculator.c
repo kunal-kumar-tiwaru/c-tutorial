@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-
+//ok
 int main(){
 
     float num1;
