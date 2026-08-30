@@ -1,10 +1,9 @@
 #include<stdio.h>
 #include<math.h>
 
-//ok
 int main(){
 
-    float num1;
+   float num1;
     scanf("%f", &num1);
      
     char sym;
